@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adoption Page!</title>
+</head>
+<body>
+    <h1>Puppy Adoption Page</h1><br>
+    <img src="https://res.cloudinary.com/petrescue/image/upload/a_0/c_crop,w_750,h_750,x_0,y_89/c_fill,w_638,h_638/v1600383166/ktduheutdqts4pghb0zu.jpg"><br><br>
+    <h2>Please enter your information to adopt a puppy and we'll email you back.
+    </h2>
+    <w3>Please note: First Name, Last Name, Password, and Email are required</w3><br><br>
+    <form name="adoptionCenter" id="adoptionCenter" action="adoption.html">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="FirstName" name="FirstName" placeholder="First Name">
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" placeholder="Last Name"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="name@email.com">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br><br>
+        <w3>Are you over the age of 18?</w3><br><br>   
+        <label for="yes18">Yes:</label>
+        <input type="radio" id="yes18" name="ifage18" value="age18">
+        <label for="not18">No:</label>
+        <input type="radio" id="not18" name="ifage18" value="age18"><br><br>
+        <label for="paymentMethod">Do you have a Credit Card or Paypal?</label><br><br>
+        <select name="paymentMethod" id="paymentMethod">
+            <option value="Credit Card">Credit Card</option>
+            <option value="Paypal">PayPal</option>
+        </select><br><br>
+        <input type="submit" value="Submit Feedback">
+    </form>
+</body>
+</html>
